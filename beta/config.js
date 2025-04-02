@@ -86,20 +86,20 @@ function continueScreenCalm11() {
 
 function continueScreenCalm12() {
     document.getElementById("calm-screen8").classList.add("hidden");
-    document.getElementById("calm-screen9").classList.add("hidden");
+    document.getElementById("calm-screen9").classList.add("hidden"); // Potential conflict
     document.getElementById("calm-screen12").classList.remove("hidden");
     document.getElementById("calm-screen12").classList.add("visible");
 }
 
 function continueScreenCalm13() {
     document.getElementById("calm-screen8").classList.add("hidden");
-    document.getElementById("calm-screen9").classList.add("hidden");
+    document.getElementById("calm-screen9").classList.add("hidden"); // Potential conflict
     document.getElementById("calm-screen13").classList.remove("hidden");
     document.getElementById("calm-screen13").classList.add("visible");
 }
 
 function continueScreenCalm14() {
-    document.getElementById("fear-screen31").classList.add("hidden");
+    document.getElementById("fear-screen31").classList.add("hidden"); // Potential conflict
     document.getElementById("calm-screen10").classList.add("hidden");
     document.getElementById("calm-screen11").classList.add("hidden");
     document.getElementById("calm-screen12").classList.add("hidden");
@@ -133,7 +133,7 @@ function continueScreenCalm18() {
 }
 
 function continueScreenCalm19() {   
-    document.getElementById("fear-screen31").classList.add("hidden");
+    document.getElementById("fear-screen31").classList.add("hidden"); // Potential conflict
     document.getElementById("calm-screen10").classList.add("hidden");
     document.getElementById("calm-screen11").classList.add("hidden");
     document.getElementById("calm-screen13").classList.add("hidden");
@@ -246,7 +246,7 @@ function continueScreenFear11() {
 }
 
 function continueScreenFear12() {
-    document.getElementById("calm-screen25").classList.add("hidden");
+    document.getElementById("calm-screen25").classList.add("hidden"); // Potential conflict
     document.getElementById("fear-screen5").classList.add("hidden");
     document.getElementById("fear-screen7").classList.add("hidden");
     document.getElementById("fear-screen12").classList.remove("hidden");
@@ -260,7 +260,7 @@ function continueScreenFear13() {
 }
 
 function continueScreenFear14() {
-    document.getElementById("calm-screen25").classList.add("hidden");
+    document.getElementById("calm-screen25").classList.add("hidden"); // Potential conflict
     document.getElementById("fear-screen5").classList.add("hidden");
     document.getElementById("fear-screen7").classList.add("hidden");
     document.getElementById("fear-screen14").classList.remove("hidden");
