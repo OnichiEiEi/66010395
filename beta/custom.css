@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  color: #333;
+  background-color: #ffffff;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  animation: fadeIn 5s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+main {
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.btn-success {
+  background-color: #27284d;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-success:hover {
+  background-color: #7c848f;
+}
+
+.hidden {
+    display: none;
+}
+
+.vissible {
+    display: block;
+}
+
+.container-fluid {
+    max-width: 600px;
+}
