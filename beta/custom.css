@@ -9,7 +9,7 @@ body {
   font-size: 14px;
   color: #333;
   background-color: #ffffff;
-  overflow: hidden;
+/*   overflow: hidden; */
   display: flex;
   flex-direction: column;
   animation: fadeIn 5s ease-in-out;
